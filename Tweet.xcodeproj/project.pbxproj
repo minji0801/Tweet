@@ -22,6 +22,8 @@
 		A5828AB727F5D2CC00DC89D3 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5828AB627F5D2CC00DC89D3 /* FeedViewController.swift */; };
 		A5828AB927F5D2D200DC89D3 /* FeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5828AB827F5D2D200DC89D3 /* FeedPresenter.swift */; };
 		A5828ABC27F5D48000DC89D3 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5828ABB27F5D48000DC89D3 /* TabBarItem.swift */; };
+		A5828ABF27F5D5E600DC89D3 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5828ABE27F5D5E600DC89D3 /* FeedTableViewCell.swift */; };
+		A5828AC127F5D86600DC89D3 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5828AC027F5D86600DC89D3 /* Icon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		A5828AB627F5D2CC00DC89D3 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		A5828AB827F5D2D200DC89D3 /* FeedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenter.swift; sourceTree = "<group>"; };
 		A5828ABB27F5D48000DC89D3 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		A5828ABE27F5D5E600DC89D3 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		A5828AC027F5D86600DC89D3 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +158,7 @@
 			children = (
 				A5828ABD27F5D48400DC89D3 /* TabBar */,
 				A5828ABA27F5D2D600DC89D3 /* Feed */,
+				A5828AC027F5D86600DC89D3 /* Icon.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 			children = (
 				A5828AB627F5D2CC00DC89D3 /* FeedViewController.swift */,
 				A5828AB827F5D2D200DC89D3 /* FeedPresenter.swift */,
+				A5828ABE27F5D5E600DC89D3 /* FeedTableViewCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -329,6 +335,8 @@
 				A5828AB227F5D05200DC89D3 /* User.swift in Sources */,
 				A5828AAF27F5D03700DC89D3 /* Tweet.swift in Sources */,
 				A5828AB727F5D2CC00DC89D3 /* FeedViewController.swift in Sources */,
+				A5828ABF27F5D5E600DC89D3 /* FeedTableViewCell.swift in Sources */,
+				A5828AC127F5D86600DC89D3 /* Icon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

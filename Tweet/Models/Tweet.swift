@@ -9,5 +9,5 @@ import Foundation
 
 struct Tweet: Codable {
     let user: User
-    let account: String
+    let contents: String
 }
