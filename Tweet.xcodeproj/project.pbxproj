@@ -36,6 +36,8 @@
 		A5DEBDA728054AE3009B4B8E /* FeedPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEBDA628054AE3009B4B8E /* FeedPresenterTests.swift */; };
 		A5DEBDAA28054D2D009B4B8E /* MockFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEBDA928054D2D009B4B8E /* MockFeedViewController.swift */; };
 		A5DEBDAC28054D62009B4B8E /* MockUserDefaultsManaer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEBDAB28054D62009B4B8E /* MockUserDefaultsManaer.swift */; };
+		A5DEBDAF28054DAD009B4B8E /* WritePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEBDAE28054DAD009B4B8E /* WritePresenterTests.swift */; };
+		A5DEBDB128054EF7009B4B8E /* MockWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEBDB028054EF7009B4B8E /* MockWriteViewController.swift */; };
 		DEFAAC667DA8EE64D7669F05 /* Pods_Tweet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4E2BDB2DA0FA72A982C02F /* Pods_Tweet.framework */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +93,8 @@
 		A5DEBDA628054AE3009B4B8E /* FeedPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenterTests.swift; sourceTree = "<group>"; };
 		A5DEBDA928054D2D009B4B8E /* MockFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFeedViewController.swift; sourceTree = "<group>"; };
 		A5DEBDAB28054D62009B4B8E /* MockUserDefaultsManaer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserDefaultsManaer.swift; sourceTree = "<group>"; };
+		A5DEBDAE28054DAD009B4B8E /* WritePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritePresenterTests.swift; sourceTree = "<group>"; };
+		A5DEBDB028054EF7009B4B8E /* MockWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWriteViewController.swift; sourceTree = "<group>"; };
 		AA4E2BDB2DA0FA72A982C02F /* Pods_Tweet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tweet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3BE617E602F0BEA5825D0EC /* Pods-Tweet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweet.debug.xcconfig"; path = "Target Support Files/Pods-Tweet/Pods-Tweet.debug.xcconfig"; sourceTree = "<group>"; };
 		C834A1F1A3DA1C3BEFA2DFEC /* Pods-Tweet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweet.release.xcconfig"; path = "Target Support Files/Pods-Tweet/Pods-Tweet.release.xcconfig"; sourceTree = "<group>"; };
@@ -285,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				A5DEBDA628054AE3009B4B8E /* FeedPresenterTests.swift */,
+				A5DEBDAE28054DAD009B4B8E /* WritePresenterTests.swift */,
 				A5DEBDAD28054D76009B4B8E /* Mocks */,
 			);
 			path = Tests;
@@ -295,6 +300,7 @@
 			children = (
 				A5DEBDA928054D2D009B4B8E /* MockFeedViewController.swift */,
 				A5DEBDAB28054D62009B4B8E /* MockUserDefaultsManaer.swift */,
+				A5DEBDB028054EF7009B4B8E /* MockWriteViewController.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -571,8 +577,10 @@
 			files = (
 				A5DEBDAC28054D62009B4B8E /* MockUserDefaultsManaer.swift in Sources */,
 				A5DEBDAA28054D2D009B4B8E /* MockFeedViewController.swift in Sources */,
+				A5DEBDB128054EF7009B4B8E /* MockWriteViewController.swift in Sources */,
 				A5DEBDA728054AE3009B4B8E /* FeedPresenterTests.swift in Sources */,
 				A5828A9227F5CF8700DC89D3 /* TweetTests.swift in Sources */,
+				A5DEBDAF28054DAD009B4B8E /* WritePresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
