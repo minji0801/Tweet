@@ -33,6 +33,9 @@
 		A589B0DE280320E500BECC62 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A589B0DD280320E500BECC62 /* WriteViewController.swift */; };
 		A589B0E0280320EB00BECC62 /* WritePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A589B0DF280320EB00BECC62 /* WritePresenter.swift */; };
 		A5DEBDA5280549D1009B4B8E /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = A5DEBDA4280549D1009B4B8E /* Toast */; };
+		A5DEBDA728054AE3009B4B8E /* FeedPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEBDA628054AE3009B4B8E /* FeedPresenterTests.swift */; };
+		A5DEBDAA28054D2D009B4B8E /* MockFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEBDA928054D2D009B4B8E /* MockFeedViewController.swift */; };
+		A5DEBDAC28054D62009B4B8E /* MockUserDefaultsManaer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEBDAB28054D62009B4B8E /* MockUserDefaultsManaer.swift */; };
 		DEFAAC667DA8EE64D7669F05 /* Pods_Tweet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4E2BDB2DA0FA72A982C02F /* Pods_Tweet.framework */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +88,9 @@
 		A5828AC027F5D86600DC89D3 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 		A589B0DD280320E500BECC62 /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
 		A589B0DF280320EB00BECC62 /* WritePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritePresenter.swift; sourceTree = "<group>"; };
+		A5DEBDA628054AE3009B4B8E /* FeedPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenterTests.swift; sourceTree = "<group>"; };
+		A5DEBDA928054D2D009B4B8E /* MockFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFeedViewController.swift; sourceTree = "<group>"; };
+		A5DEBDAB28054D62009B4B8E /* MockUserDefaultsManaer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserDefaultsManaer.swift; sourceTree = "<group>"; };
 		AA4E2BDB2DA0FA72A982C02F /* Pods_Tweet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tweet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3BE617E602F0BEA5825D0EC /* Pods-Tweet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweet.debug.xcconfig"; path = "Target Support Files/Pods-Tweet/Pods-Tweet.debug.xcconfig"; sourceTree = "<group>"; };
 		C834A1F1A3DA1C3BEFA2DFEC /* Pods-Tweet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweet.release.xcconfig"; path = "Target Support Files/Pods-Tweet/Pods-Tweet.release.xcconfig"; sourceTree = "<group>"; };
@@ -203,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				A5828A9127F5CF8700DC89D3 /* TweetTests.swift */,
+				A5DEBDA828054D20009B4B8E /* Tests */,
 			);
 			path = TweetTests;
 			sourceTree = "<group>";
@@ -272,6 +279,24 @@
 				A589B0DF280320EB00BECC62 /* WritePresenter.swift */,
 			);
 			path = Write;
+			sourceTree = "<group>";
+		};
+		A5DEBDA828054D20009B4B8E /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A5DEBDA628054AE3009B4B8E /* FeedPresenterTests.swift */,
+				A5DEBDAD28054D76009B4B8E /* Mocks */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		A5DEBDAD28054D76009B4B8E /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				A5DEBDA928054D2D009B4B8E /* MockFeedViewController.swift */,
+				A5DEBDAB28054D62009B4B8E /* MockUserDefaultsManaer.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -544,6 +569,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5DEBDAC28054D62009B4B8E /* MockUserDefaultsManaer.swift in Sources */,
+				A5DEBDAA28054D2D009B4B8E /* MockFeedViewController.swift in Sources */,
+				A5DEBDA728054AE3009B4B8E /* FeedPresenterTests.swift in Sources */,
 				A5828A9227F5CF8700DC89D3 /* TweetTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
