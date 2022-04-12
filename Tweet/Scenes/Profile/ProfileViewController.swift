@@ -5,6 +5,7 @@
 //  Created by 김민지 on 2022/04/12.
 //
 
+import Toast
 import UIKit
 
 final class ProfileViewController: UIViewController {
@@ -30,7 +31,12 @@ final class ProfileViewController: UIViewController {
         let button = UIButton()
         button.setTitle("저장하기", for: .normal)
         button.titleLabel?.font = .systemFont(ofSize: 15.0, weight: .bold)
-        button.contentEdgeInsets = UIEdgeInsets(top: 8.0, left: 8.0, bottom: 8.0, right: 8.0)
+        button.contentEdgeInsets = UIEdgeInsets(
+            top: 8.0,
+            left: 8.0,
+            bottom: 8.0,
+            right: 8.0
+        )
         button.layer.cornerRadius = 15.0
         button.backgroundColor = .systemBlue
         button.setTitleColor(UIColor.white, for: .normal)
@@ -86,6 +92,10 @@ extension ProfileViewController: ProfileProtocol {
     
     func endEditing() {
         view.endEditing(true)
+    }
+    
+    func showToast() {
+        view.makeToast("변경하고자 하는 내용을 입력해주세요.")
     }
 }
 

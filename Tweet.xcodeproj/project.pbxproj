@@ -32,6 +32,7 @@
 		A5828AC127F5D86600DC89D3 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5828AC027F5D86600DC89D3 /* Icon.swift */; };
 		A589B0DE280320E500BECC62 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A589B0DD280320E500BECC62 /* WriteViewController.swift */; };
 		A589B0E0280320EB00BECC62 /* WritePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A589B0DF280320EB00BECC62 /* WritePresenter.swift */; };
+		A5DEBDA5280549D1009B4B8E /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = A5DEBDA4280549D1009B4B8E /* Toast */; };
 		DEFAAC667DA8EE64D7669F05 /* Pods_Tweet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4E2BDB2DA0FA72A982C02F /* Pods_Tweet.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5DEBDA5280549D1009B4B8E /* Toast in Frameworks */,
 				A5828AAC27F5CF9F00DC89D3 /* SnapKit in Frameworks */,
 				DEFAAC667DA8EE64D7669F05 /* Pods_Tweet.framework in Frameworks */,
 			);
@@ -292,6 +294,7 @@
 			name = Tweet;
 			packageProductDependencies = (
 				A5828AAB27F5CF9F00DC89D3 /* SnapKit */,
+				A5DEBDA4280549D1009B4B8E /* Toast */,
 			);
 			productName = Tweet;
 			productReference = A5828A7727F5CF8600DC89D3 /* Tweet.app */;
@@ -370,6 +373,7 @@
 			mainGroup = A5828A6E27F5CF8600DC89D3;
 			packageReferences = (
 				A5828AAA27F5CF9F00DC89D3 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				A5DEBDA3280549D1009B4B8E /* XCRemoteSwiftPackageReference "Toast-Swift" */,
 			);
 			productRefGroup = A5828A7827F5CF8600DC89D3 /* Products */;
 			projectDirPath = "";
@@ -880,6 +884,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		A5DEBDA3280549D1009B4B8E /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -887,6 +899,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A5828AAA27F5CF9F00DC89D3 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		A5DEBDA4280549D1009B4B8E /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5DEBDA3280549D1009B4B8E /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

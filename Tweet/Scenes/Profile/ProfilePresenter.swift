@@ -6,11 +6,13 @@
 //
 
 import Foundation
+import Toast
 
 protocol ProfileProtocol: AnyObject {
     func setupViews()
     func setViews(with name: String, account: String)
     func endEditing()
+    func showToast()
 }
 
 final class ProfilePresenter {
@@ -31,6 +33,7 @@ final class ProfilePresenter {
     
     func didTapSaveButton(name: String?, account: String?) {
         if name == nil || name == "" || account == nil || account == "" {
+            viewController?.showToast()
             return
         }
         
