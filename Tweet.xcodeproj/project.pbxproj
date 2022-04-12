@@ -40,6 +40,8 @@
 		A5DEBDB128054EF7009B4B8E /* MockWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEBDB028054EF7009B4B8E /* MockWriteViewController.swift */; };
 		A5DEBDB328054F34009B4B8E /* TweetPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEBDB228054F34009B4B8E /* TweetPresenterTests.swift */; };
 		A5DEBDB52805503C009B4B8E /* MockTweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEBDB42805503C009B4B8E /* MockTweetViewController.swift */; };
+		A5DEBDB72805508C009B4B8E /* ProfilePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEBDB62805508C009B4B8E /* ProfilePresenterTests.swift */; };
+		A5DEBDB928055284009B4B8E /* MockProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEBDB828055284009B4B8E /* MockProfileViewController.swift */; };
 		DEFAAC667DA8EE64D7669F05 /* Pods_Tweet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4E2BDB2DA0FA72A982C02F /* Pods_Tweet.framework */; };
 /* End PBXBuildFile section */
 
@@ -99,6 +101,8 @@
 		A5DEBDB028054EF7009B4B8E /* MockWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWriteViewController.swift; sourceTree = "<group>"; };
 		A5DEBDB228054F34009B4B8E /* TweetPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetPresenterTests.swift; sourceTree = "<group>"; };
 		A5DEBDB42805503C009B4B8E /* MockTweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTweetViewController.swift; sourceTree = "<group>"; };
+		A5DEBDB62805508C009B4B8E /* ProfilePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenterTests.swift; sourceTree = "<group>"; };
+		A5DEBDB828055284009B4B8E /* MockProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockProfileViewController.swift; sourceTree = "<group>"; };
 		AA4E2BDB2DA0FA72A982C02F /* Pods_Tweet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tweet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3BE617E602F0BEA5825D0EC /* Pods-Tweet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweet.debug.xcconfig"; path = "Target Support Files/Pods-Tweet/Pods-Tweet.debug.xcconfig"; sourceTree = "<group>"; };
 		C834A1F1A3DA1C3BEFA2DFEC /* Pods-Tweet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweet.release.xcconfig"; path = "Target Support Files/Pods-Tweet/Pods-Tweet.release.xcconfig"; sourceTree = "<group>"; };
@@ -295,6 +299,7 @@
 				A5DEBDA628054AE3009B4B8E /* FeedPresenterTests.swift */,
 				A5DEBDAE28054DAD009B4B8E /* WritePresenterTests.swift */,
 				A5DEBDB228054F34009B4B8E /* TweetPresenterTests.swift */,
+				A5DEBDB62805508C009B4B8E /* ProfilePresenterTests.swift */,
 				A5DEBDAD28054D76009B4B8E /* Mocks */,
 			);
 			path = Tests;
@@ -307,6 +312,7 @@
 				A5DEBDAB28054D62009B4B8E /* MockUserDefaultsManaer.swift */,
 				A5DEBDB028054EF7009B4B8E /* MockWriteViewController.swift */,
 				A5DEBDB42805503C009B4B8E /* MockTweetViewController.swift */,
+				A5DEBDB828055284009B4B8E /* MockProfileViewController.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -581,11 +587,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5DEBDB72805508C009B4B8E /* ProfilePresenterTests.swift in Sources */,
 				A5DEBDAC28054D62009B4B8E /* MockUserDefaultsManaer.swift in Sources */,
 				A5DEBDAA28054D2D009B4B8E /* MockFeedViewController.swift in Sources */,
 				A5DEBDB52805503C009B4B8E /* MockTweetViewController.swift in Sources */,
 				A5DEBDB128054EF7009B4B8E /* MockWriteViewController.swift in Sources */,
 				A5DEBDA728054AE3009B4B8E /* FeedPresenterTests.swift in Sources */,
+				A5DEBDB928055284009B4B8E /* MockProfileViewController.swift in Sources */,
 				A5828A9227F5CF8700DC89D3 /* TweetTests.swift in Sources */,
 				A5DEBDB328054F34009B4B8E /* TweetPresenterTests.swift in Sources */,
 				A5DEBDAF28054DAD009B4B8E /* WritePresenterTests.swift in Sources */,
