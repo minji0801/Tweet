@@ -31,19 +31,19 @@ class WritePresenterTests: XCTestCase {
         super.tearDown()
     }
     
-    func test_viewDidLoad가_호출되면() {
+    func test_viewDidLoad가_요청되면() {
         sut.viewDidLoad()
         
         XCTAssertTrue(viewController.isCalledSetupViews)
     }
     
-    func test_didTapLeftBarButtonItem이_호출되면() {
+    func test_didTapLeftBarButtonItem이_요청되면() {
         sut.didTapLeftBarButtonItem()
         
         XCTAssertTrue(viewController.isCalledDismiss)
     }
     
-    func test_didTapRightBarButtonItem이_호출되면() {
+    func test_didTapRightBarButtonItem이_요청되면() {
         sut.didTapRightBarButtonItem(text: "")
         
         XCTAssertTrue(userDefaultsManger.isCalledSetTweet)
